@@ -1,5 +1,22 @@
 fork of the original to implement cuda11.8 copiling capabiliti under linux
+Compling with nvcc -arch compute_75
+compatible with ADA architecture
 
+https://docs.nvidia.com/cuda/ada-compatibility-guide/index.html
+
+you must use GCC and G++ v 11.x to compile
+
+if you have gcc 12 as a default compiler you can do (debian based linux)
+
+```
+sudo apt-get install gcc-11-base g++-11
+
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 100
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 100
+
+gcc --version
+g++ --version
+```
 
 # Ebsynth: A Fast Example-based Image Synthesizer
 
