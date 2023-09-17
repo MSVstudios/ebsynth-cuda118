@@ -1,3 +1,6 @@
+fork of the original to implement cuda11.8 copiling capabiliti under linux
+
+
 # Ebsynth: A Fast Example-based Image Synthesizer
 
 `ebsynth` is a versatile tool for by-example synthesis of images.
